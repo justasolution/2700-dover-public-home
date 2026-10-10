@@ -476,6 +476,16 @@
       "featured": true
     },
     {
+      "image": "assets/concepts/cockatiel-breeding-room-plan.webp",
+      "title": "Cockatiel Breeding Room Plan",
+      "featured": false
+    },
+    {
+      "image": "assets/concepts/cockatiel-indoor-seasonal-porch-guide.webp",
+      "title": "Cockatiel Indoor and Seasonal Porch Guide",
+      "featured": false
+    },
+    {
       "image": "assets/concepts/compact-adult-bedroom-concept.webp",
       "title": "Compact Adult Bedroom",
       "featured": true
@@ -511,9 +521,19 @@
       "featured": true
     },
     {
+      "image": "assets/concepts/four-season-family-garden-guide.webp",
+      "title": "Four-Season Family Garden Guide",
+      "featured": false
+    },
+    {
       "image": "assets/concepts/full-bath-refresh-concept.webp",
       "title": "Full Bath Refresh",
       "featured": true
+    },
+    {
+      "image": "assets/concepts/garden-birds-backyard-overview.webp",
+      "title": "Garden and Birds \u2014 Backyard Overview",
+      "featured": false
     },
     {
       "image": "assets/concepts/ground-office-four-screen-concept.webp",
@@ -524,6 +544,11 @@
       "image": "assets/concepts/half-bath-refresh-concept.webp",
       "title": "Half Bath Refresh",
       "featured": true
+    },
+    {
+      "image": "assets/concepts/indoor-outdoor-aviary-connection-plan.webp",
+      "title": "Indoor\u2013Outdoor Aviary Connection Plan",
+      "featured": false
     },
     {
       "image": "assets/concepts/kitchen-sage-oak-concept.webp",
@@ -561,6 +586,11 @@
       "featured": true
     },
     {
+      "image": "assets/concepts/office-creative-studio-variation.webp",
+      "title": "Lower Office \u2014 Creative Studio Variation",
+      "featured": false
+    },
+    {
       "image": "assets/concepts/prayer-hall-zoned-concept.webp",
       "title": "Prayer Hall Zoned",
       "featured": true
@@ -576,13 +606,13 @@
       "featured": true
     },
     {
-      "image": "assets/concepts/screened-porch-breeding-suite-concept.webp",
-      "title": "Screened Porch Breeding Suite",
+      "image": "assets/concepts/screened-porch-concept.webp",
+      "title": "Screened Porch",
       "featured": true
     },
     {
-      "image": "assets/concepts/screened-porch-concept.webp",
-      "title": "Screened Porch",
+      "image": "assets/concepts/screened-porch-breeding-suite-concept.webp",
+      "title": "Screened Porch Breeding Suite",
       "featured": true
     },
     {
@@ -606,14 +636,34 @@
       "featured": true
     },
     {
+      "image": "assets/concepts/three-bed-room-open-floor-variation.webp",
+      "title": "Three-Bed Room \u2014 Open-Floor Variation",
+      "featured": false
+    },
+    {
+      "image": "assets/concepts/three-bed-room-sofa-variation.webp",
+      "title": "Three-Bed Room \u2014 Sofa Variation",
+      "featured": false
+    },
+    {
       "image": "assets/concepts/upper-lawn-garden-overhead.webp",
       "title": "Upper Lawn Garden Overhead",
       "featured": true
     },
     {
+      "image": "assets/concepts/upper-lawn-garden-clean-aerial.webp",
+      "title": "Upper-Lawn Garden \u2014 Clean Aerial Study",
+      "featured": false
+    },
+    {
       "image": "assets/concepts/upstairs-study-concept.webp",
       "title": "Upstairs Study",
       "featured": true
+    },
+    {
+      "image": "assets/concepts/warm-retreat-outdoor-flight-plan.webp",
+      "title": "Warm Retreat and Outdoor Flight Plan",
+      "featured": false
     },
     {
       "image": "assets/concepts/whole-yard-overhead-concept.webp",
