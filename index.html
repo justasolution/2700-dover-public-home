@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Original listing photos and family home design concepts for 2700 Dover Street.">
+  <title>2700 Dover Street — Home Vision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="hero" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top"><span>2700</span> Dover</a>
+      <div class="nav-links">
+        <a href="#rooms">Room ideas</a><a href="#listing">Original photos</a><a href="#variations">All variations</a><a href="#tour">Video</a>
+      </div>
+    </nav>
+    <div class="hero-grid shell">
+      <div class="hero-copy">
+        <p class="kicker">A family home vision</p>
+        <h1>More nature.<br>More room to live.</h1>
+        <p class="intro">A single visual guide that brings together the public listing photography and our ideas for a practical, calm, family-centered home.</p>
+        <div class="hero-actions"><a class="button" href="#rooms">Explore the plan</a><a class="text-link" href="#listing">See all 39 listing photos →</a></div>
+      </div>
+      <figure class="hero-image"><img src="assets/concepts/upper-lawn-garden-overhead.webp" alt="Illustrative aerial concept for the house and garden"><figcaption>Illustrative concept · verify survey and dimensions</figcaption></figure>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="overview shell" aria-label="Overview">
+      <div><strong>39</strong><span>original listing views</span></div>
+      <div><strong>15</strong><span>coordinated room plans</span></div>
+      <div><strong>30</strong><span>visual concept variations</span></div>
+      <p>Original photos are marked <b>Listing</b>. Reimagined images are marked <b>Concept</b>, so the two are always easy to distinguish.</p>
+    </section>
+
+    <section class="section shell" id="rooms">
+      <div class="section-heading"><div><p class="kicker">Before and idea</p><h2>A plan for every space</h2></div><p>Choose a space to compare the original listing view with the proposed direction.</p></div>
+      <div class="filter-row" id="roomFilters" aria-label="Filter rooms"></div>
+      <div class="room-list" id="roomList"></div>
+    </section>
+
+    <section class="section warm" id="listing">
+      <div class="shell">
+        <div class="section-heading"><div><p class="kicker">The house as listed</p><h2>All original photography</h2></div><p>These 39 images are retained together as the visual reference for the concepts.</p></div>
+        <div class="photo-grid" id="listingGrid"></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="variations">
+      <div class="section-heading"><div><p class="kicker">The full idea library</p><h2>Every design variation</h2></div><p>Primary designs and earlier alternatives are kept here for comparison. All are illustrative.</p></div>
+      <div class="concept-grid" id="conceptGrid"></div>
+    </section>
+
+    <section class="section tour shell" id="tour">
+      <div class="tour-copy"><p class="kicker">Walk through the vision</p><h2>Dream-home concept tour</h2><p>This short visual tour collects the proposed moods and layouts. It is a planning aid, not a measured construction drawing.</p></div>
+      <video controls preload="metadata" playsinline poster="assets/concepts/exterior-warm-white-concept.webp"><source src="assets/video/2700-dover-dream-home-tour.mp4" type="video/mp4">Your browser does not support video playback.</video>
+    </section>
+
+    <section class="privacy shell" aria-labelledby="private-title">
+      <div><p class="kicker">Private archive</p><h2 id="private-title">Documents stay separate</h2></div>
+      <p>Inspection reports, contracts, attorney correspondence, appraisal, insurance, and personal notes are intentionally not hosted on this public site. They remain in the private repository and local protected archive.</p>
+    </section>
+  </main>
+
+  <dialog id="viewer"><button class="close" aria-label="Close image">×</button><img alt=""><div><span class="tag"></span><h3></h3><p></p></div></dialog>
+  <footer><div class="shell"><p>2700 Dover Street home vision</p><p>Concept images are illustrative. Verify dimensions, structure, utilities, permits, plant and animal safety before work.</p></div></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

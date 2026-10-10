@@ -1,0 +1,624 @@
+{
+  "rooms": [
+    {
+      "id": "front-exterior",
+      "title": "Front exterior \u2014 two affordable paint directions",
+      "summary": "A paint-first curb-appeal plan that keeps the roof, windows, masonry and structure while adding a calmer palette and simple planting.",
+      "source": "assets/listing/photo-01.webp",
+      "concept": "assets/concepts/exterior-warm-white-concept.webp",
+      "priority": "Phase 2",
+      "alternatives": [
+        {
+          "title": "Nature-sage exterior variation",
+          "summary": "Light sage siding, creamy trim and a warm wood-look door create a softer garden-connected exterior.",
+          "image": "assets/concepts/exterior-sage-concept.webp"
+        }
+      ]
+    },
+    {
+      "id": "family-hall",
+      "title": "Family hall \u2014 sofa, TV and living nature",
+      "summary": "A welcoming family hall with mounted TV, washable seating, Islamic geometric art, layered light, plants and the home\u2019s single aquarium.",
+      "source": "assets/listing/photo-10.webp",
+      "concept": "assets/concepts/family-hall-tv-nature-concept.webp",
+      "priority": "Phase 2",
+      "alternatives": [
+        {
+          "title": "Screen-light family variation",
+          "summary": "More open floor play and lower storage, with the television visually secondary.",
+          "image": "assets/concepts/family-room-concept.webp"
+        }
+      ]
+    },
+    {
+      "id": "prayer-hall",
+      "title": "Second hall \u2014 prayer, reading and storage",
+      "summary": "A naturally bright prayer room with separated rug zones, open circulation, compact seating and hidden storage.",
+      "source": "assets/listing/photo-12.webp",
+      "concept": "assets/concepts/prayer-hall-zoned-concept.webp",
+      "priority": "Phase 2",
+      "alternatives": [
+        {
+          "title": "Open prayer and reading variation",
+          "summary": "A larger flexible floor area with movable chairs and a closed mat-storage bench.",
+          "image": "assets/concepts/quiet-living-prayer-concept.webp"
+        }
+      ]
+    },
+    {
+      "id": "kitchen-storage",
+      "title": "Kitchen \u2014 remove the white refrigerator and add pantry cabinets",
+      "summary": "Keep the stainless refrigerator and existing footprint; replace the extra white refrigerator with floor-to-ceiling pantry, drawers and an appliance garage.",
+      "source": "assets/listing/photo-18.webp",
+      "concept": "assets/concepts/kitchen-white-pantry-concept.webp",
+      "priority": "Phase 1",
+      "alternatives": [
+        {
+          "title": "Sage and oak pantry variation",
+          "summary": "Repaint reusable lower cabinets sage and use a light-oak pantry wall for a warmer nature-focused kitchen.",
+          "image": "assets/concepts/kitchen-sage-oak-concept.webp"
+        }
+      ]
+    },
+    {
+      "id": "dining-room",
+      "title": "Dining room \u2014 six seats, simple storage",
+      "summary": "A durable six-seat dining setup with one closed cabinet and a clear route to the sliding door.",
+      "source": "assets/listing/photo-15.webp",
+      "concept": "assets/concepts/dining-room-concept.webp",
+      "priority": "Phase 1",
+      "alternatives": []
+    },
+    {
+      "id": "breakfast-nook",
+      "title": "Breakfast and homework nook",
+      "summary": "A compact everyday table for breakfast, homework and crafts, with hidden supplies and no extra lounge furniture.",
+      "source": "assets/listing/photo-04.webp",
+      "concept": "assets/concepts/breakfast-nook-concept.webp",
+      "priority": "Phase 3",
+      "alternatives": []
+    },
+    {
+      "id": "large-three-bed-room",
+      "title": "Large bedroom \u2014 three individual storage beds",
+      "summary": "Three movable twin beds with integrated drawers, nature details and an unobstructed closet route.",
+      "source": "assets/listing/photo-20.webp",
+      "concept": "assets/concepts/large-three-bed-nature-concept.webp",
+      "priority": "Phase 1",
+      "alternatives": [
+        {
+          "title": "Storage-first three-bed variation",
+          "summary": "No freestanding dresser; the beds provide nearly all clothing and toy storage.",
+          "image": "assets/concepts/large-three-bed-storage-concept.webp"
+        }
+      ]
+    },
+    {
+      "id": "compact-adult-bedroom",
+      "title": "Medium bedroom \u2014 compact adult retreat",
+      "summary": "A compact queen storage bed, narrow wall shelves, concealed clothing storage and a few raised plants.",
+      "source": "assets/listing/photo-23.webp",
+      "concept": "assets/concepts/compact-adult-bedroom-concept.webp",
+      "priority": "Phase 1",
+      "alternatives": []
+    },
+    {
+      "id": "upstairs-study",
+      "title": "Small upstairs bedroom \u2014 study only",
+      "summary": "A two-place study room with a shallow desk, closed supplies, controlled cables and no bed.",
+      "source": "assets/listing/photo-05.webp",
+      "concept": "assets/concepts/upstairs-study-concept.webp",
+      "priority": "Phase 2",
+      "alternatives": []
+    },
+    {
+      "id": "ground-office",
+      "title": "Ground bedroom \u2014 four-screen creative office",
+      "summary": "A focused digital studio with exactly four displays, sit-stand desk, ergonomic chair, cable management and plants.",
+      "source": "assets/listing/photo-27.webp",
+      "concept": "assets/concepts/ground-office-four-screen-concept.webp",
+      "priority": "Phase 2",
+      "alternatives": [
+        {
+          "title": "Lower-cost one-screen office",
+          "summary": "Start with the desk, chair and storage, then add displays only when work requires them.",
+          "image": "assets/concepts/lower-office-concept.webp"
+        }
+      ]
+    },
+    {
+      "id": "full-bath",
+      "title": "Full bathroom \u2014 repair-first cosmetic refresh",
+      "summary": "Keep plumbing locations and serviceable fixtures while improving storage, lighting, water efficiency and calm color.",
+      "source": "assets/listing/photo-07.webp",
+      "concept": "assets/concepts/full-bath-refresh-concept.webp",
+      "priority": "Phase 2",
+      "alternatives": []
+    },
+    {
+      "id": "half-bath",
+      "title": "Half bathroom \u2014 compact low-cost refresh",
+      "summary": "Paint, lighting, faucet and compact storage give the small bath a finished look without expanding it.",
+      "source": "assets/listing/photo-26.webp",
+      "concept": "assets/concepts/half-bath-refresh-concept.webp",
+      "priority": "Phase 2",
+      "alternatives": []
+    },
+    {
+      "id": "sunroom-aviary",
+      "title": "Sunroom \u2014 aviary and family relaxation",
+      "summary": "A divided flight enclosure gives cockatiels horizontal movement while retaining a calm, clean family sitting zone.",
+      "source": "assets/listing/photo-29.webp",
+      "concept": "assets/concepts/screened-porch-flight-aviary-concept.webp",
+      "priority": "Phase 3",
+      "alternatives": [
+        {
+          "title": "Smaller breeding-suite variation",
+          "summary": "A compact enclosed bird room leaves more of the porch available for family seating.",
+          "image": "assets/concepts/screened-porch-breeding-suite-concept.webp"
+        },
+        {
+          "title": "Relax-room-first variation",
+          "summary": "Use the porch as a family room until repairs, insulation and climate control are proven.",
+          "image": "assets/concepts/screened-porch-concept.webp"
+        }
+      ]
+    },
+    {
+      "id": "rear-deck",
+      "title": "Rear deck \u2014 family dining, herbs and rain capture",
+      "summary": "Clean and refinish the existing deck, then add compact dining, shade, herbs, efficient light and controlled rain capture.",
+      "source": "assets/listing/photo-31.webp",
+      "concept": "assets/concepts/deck-eco-family-concept.webp",
+      "priority": "Phase 3",
+      "alternatives": []
+    },
+    {
+      "id": "side-garden",
+      "title": "Upper-lawn food garden \u2014 compact productive zone",
+      "summary": "All food production uses the empty upper lawn around the marked 45.2% \u00d7 12.9% location; the side of the house and large family lawn remain clean and open.",
+      "source": "assets/listing/photo-37.webp",
+      "concept": "assets/concepts/upper-lawn-garden-overhead.webp",
+      "priority": "Phase 3",
+      "alternatives": [
+        {
+          "title": "Earlier ground-level garden study",
+          "summary": "Retained for comparison; the compact aerial plan above is the selected direction.",
+          "image": "assets/concepts/side-garden-concept.webp"
+        },
+        {
+          "title": "Whole-yard overhead planning view",
+          "summary": "Use this only for zoning ideas; verify the survey, dimensions, sunlight, utilities and setbacks.",
+          "image": "assets/concepts/whole-yard-overhead-concept.webp"
+        }
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "number": 1,
+      "view": "Front elevation",
+      "direction": "Compare warm-white and light-sage paint; retain roof, brick and garage door.",
+      "roomId": "front-exterior",
+      "image": "assets/listing/photo-01.webp"
+    },
+    {
+      "number": 2,
+      "view": "Dining angle 1",
+      "direction": "Use the six-seat dining concept and repaint walls warm ivory.",
+      "roomId": "dining-room",
+      "image": "assets/listing/photo-02.webp"
+    },
+    {
+      "number": 3,
+      "view": "Sunroom angle 1",
+      "direction": "Plan staged relaxation first, then enclosed aviary after climate and roof work.",
+      "roomId": "sunroom-aviary",
+      "image": "assets/listing/photo-03.webp"
+    },
+    {
+      "number": 4,
+      "view": "Breakfast nook",
+      "direction": "Use a compact homework table, storage bench and washable finishes.",
+      "roomId": "breakfast-nook",
+      "image": "assets/listing/photo-04.webp"
+    },
+    {
+      "number": 5,
+      "view": "Small upstairs room",
+      "direction": "Remove the bed and create the two-person study room.",
+      "roomId": "upstairs-study",
+      "image": "assets/listing/photo-05.webp"
+    },
+    {
+      "number": 6,
+      "view": "Stair and hall transition",
+      "direction": "Keep circulation open; use one wall color, efficient light and closed landing storage.",
+      "roomId": "prayer-hall",
+      "image": "assets/listing/photo-06.webp"
+    },
+    {
+      "number": 7,
+      "view": "Full bathroom",
+      "direction": "Keep plumbing; repair moisture issues, repaint vanity and improve lighting/storage.",
+      "roomId": "full-bath",
+      "image": "assets/listing/photo-07.webp"
+    },
+    {
+      "number": 8,
+      "view": "Front elevation angle 2",
+      "direction": "Use the selected exterior paint palette consistently on every elevation.",
+      "roomId": "front-exterior",
+      "image": "assets/listing/photo-08.webp"
+    },
+    {
+      "number": 9,
+      "view": "Entry and family hall",
+      "direction": "Clear the front-door route and use low closed storage.",
+      "roomId": "family-hall",
+      "image": "assets/listing/photo-09.webp"
+    },
+    {
+      "number": 10,
+      "view": "Family hall angle 2",
+      "direction": "Place sofa, mounted TV and the home\u2019s one supported aquarium.",
+      "roomId": "family-hall",
+      "image": "assets/listing/photo-10.webp"
+    },
+    {
+      "number": 11,
+      "view": "Family hall angle 3",
+      "direction": "Keep windows and baseboard/HVAC paths clear; use washable seating.",
+      "roomId": "family-hall",
+      "image": "assets/listing/photo-11.webp"
+    },
+    {
+      "number": 12,
+      "view": "Vaulted second hall",
+      "direction": "Use separated prayer rugs, storage seating and raised plants.",
+      "roomId": "prayer-hall",
+      "image": "assets/listing/photo-12.webp"
+    },
+    {
+      "number": 13,
+      "view": "Second hall angle 2",
+      "direction": "Preserve skylight and stairs; keep the central prayer floor flexible.",
+      "roomId": "prayer-hall",
+      "image": "assets/listing/photo-13.webp"
+    },
+    {
+      "number": 14,
+      "view": "Connected living/dining view",
+      "direction": "Use one unified warm-neutral paint and repeat oak, sage and blue accents.",
+      "roomId": "dining-room",
+      "image": "assets/listing/photo-14.webp"
+    },
+    {
+      "number": 15,
+      "view": "Dining room angle 2",
+      "direction": "Retain a right-sized six-seat table and one closed cabinet.",
+      "roomId": "dining-room",
+      "image": "assets/listing/photo-15.webp"
+    },
+    {
+      "number": 16,
+      "view": "Dining room angle 3",
+      "direction": "Keep the exterior-door route and chair pull-out clearance open.",
+      "roomId": "dining-room",
+      "image": "assets/listing/photo-16.webp"
+    },
+    {
+      "number": 17,
+      "view": "Kitchen angle 1",
+      "direction": "Retain stainless appliances and existing footprint; improve cabinet storage.",
+      "roomId": "kitchen-storage",
+      "image": "assets/listing/photo-17.webp"
+    },
+    {
+      "number": 18,
+      "view": "Kitchen angle 2",
+      "direction": "Remove the white refrigerator and build the full-height pantry here.",
+      "roomId": "kitchen-storage",
+      "image": "assets/listing/photo-18.webp"
+    },
+    {
+      "number": 19,
+      "view": "Kitchen angle 3",
+      "direction": "Use ceiling-height storage and LED task lighting without moving plumbing.",
+      "roomId": "kitchen-storage",
+      "image": "assets/listing/photo-19.webp"
+    },
+    {
+      "number": 20,
+      "view": "Large bedroom angle 1",
+      "direction": "Use three separate storage beds with a clear closet aisle.",
+      "roomId": "large-three-bed-room",
+      "image": "assets/listing/photo-20.webp"
+    },
+    {
+      "number": 21,
+      "view": "Large bedroom angle 2",
+      "direction": "Face drawers into open space and use wall cubbies instead of a dresser.",
+      "roomId": "large-three-bed-room",
+      "image": "assets/listing/photo-21.webp"
+    },
+    {
+      "number": 22,
+      "view": "Large bedroom angle 3",
+      "direction": "Keep heat, windows and ceiling-fan sweep clear.",
+      "roomId": "large-three-bed-room",
+      "image": "assets/listing/photo-22.webp"
+    },
+    {
+      "number": 23,
+      "view": "Medium bedroom angle 1",
+      "direction": "Use a compact queen storage bed and narrow anchored wardrobe.",
+      "roomId": "compact-adult-bedroom",
+      "image": "assets/listing/photo-23.webp"
+    },
+    {
+      "number": 24,
+      "view": "Medium bedroom angle 2",
+      "direction": "Preserve closet operation, window access and a simple calm palette.",
+      "roomId": "compact-adult-bedroom",
+      "image": "assets/listing/photo-24.webp"
+    },
+    {
+      "number": 25,
+      "view": "Additional bedroom angle",
+      "direction": "Use compact storage and the same washable bedroom palette; verify final room assignment.",
+      "roomId": "compact-adult-bedroom",
+      "image": "assets/listing/photo-25.webp"
+    },
+    {
+      "number": 26,
+      "view": "Half bathroom",
+      "direction": "Keep plumbing and use a paint, light, faucet and shelf refresh.",
+      "roomId": "half-bath",
+      "image": "assets/listing/photo-26.webp"
+    },
+    {
+      "number": 27,
+      "view": "Ground bedroom angle 1",
+      "direction": "Remove bed and install the four-screen creative office.",
+      "roomId": "ground-office",
+      "image": "assets/listing/photo-27.webp"
+    },
+    {
+      "number": 28,
+      "view": "Ground bedroom angle 2",
+      "direction": "Keep windows, baseboard heat and ceiling inspection area open.",
+      "roomId": "ground-office",
+      "image": "assets/listing/photo-28.webp"
+    },
+    {
+      "number": 29,
+      "view": "Sunroom angle 2",
+      "direction": "Use a secure flight enclosure plus separate family seating zone.",
+      "roomId": "sunroom-aviary",
+      "image": "assets/listing/photo-29.webp"
+    },
+    {
+      "number": 30,
+      "view": "Sunroom angle 3",
+      "direction": "Retain a relax-room-first option until year-round bird conditions are proven.",
+      "roomId": "sunroom-aviary",
+      "image": "assets/listing/photo-30.webp"
+    },
+    {
+      "number": 31,
+      "view": "Rear deck angle 1",
+      "direction": "Repair and refinish; add compact dining, shade, herbs and safe lighting.",
+      "roomId": "rear-deck",
+      "image": "assets/listing/photo-31.webp"
+    },
+    {
+      "number": 32,
+      "view": "Rear deck angle 2",
+      "direction": "Keep stairs and grill clearance open; avoid costly deck expansion.",
+      "roomId": "rear-deck",
+      "image": "assets/listing/photo-32.webp"
+    },
+    {
+      "number": 33,
+      "view": "Rear exterior angle 1",
+      "direction": "Carry the selected exterior color to the back after siding review.",
+      "roomId": "front-exterior",
+      "image": "assets/listing/photo-33.webp"
+    },
+    {
+      "number": 34,
+      "view": "Rear yard angle 1",
+      "direction": "Keep central lawn open and move food beds to the perimeter.",
+      "roomId": "side-garden",
+      "image": "assets/listing/photo-34.webp"
+    },
+    {
+      "number": 35,
+      "view": "Rear yard angle 2",
+      "direction": "Add native flowers, berries and protected raised beds along sunny edges.",
+      "roomId": "side-garden",
+      "image": "assets/listing/photo-35.webp"
+    },
+    {
+      "number": 36,
+      "view": "Aerial property angle 1",
+      "direction": "Use the overhead concept for zones only; verify survey and utilities.",
+      "roomId": "side-garden",
+      "image": "assets/listing/photo-36.webp"
+    },
+    {
+      "number": 37,
+      "view": "Overhead property",
+      "direction": "Use the empty upper lawn near the 45.2% \u00d7 12.9% marker for food beds; keep the side lawn and large family lawn clean and open.",
+      "roomId": "side-garden",
+      "image": "assets/listing/photo-37.webp"
+    },
+    {
+      "number": 38,
+      "view": "Neighborhood aerial 1",
+      "direction": "Prioritize improvements within the existing footprint to control cost.",
+      "roomId": "front-exterior",
+      "image": "assets/listing/photo-38.webp"
+    },
+    {
+      "number": 39,
+      "view": "Neighborhood aerial 2",
+      "direction": "Treat boundaries and setbacks as unverified until the survey is reviewed.",
+      "roomId": "side-garden",
+      "image": "assets/listing/photo-39.webp"
+    }
+  ],
+  "concepts": [
+    {
+      "image": "assets/concepts/breakfast-nook-concept.webp",
+      "title": "Breakfast Nook",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/compact-adult-bedroom-concept.webp",
+      "title": "Compact Adult Bedroom",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/deck-eco-family-concept.webp",
+      "title": "Deck Eco Family",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/dining-room-concept.webp",
+      "title": "Dining Room",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/exterior-sage-concept.webp",
+      "title": "Exterior Sage",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/exterior-warm-white-concept.webp",
+      "title": "Exterior Warm White",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/family-hall-tv-nature-concept.webp",
+      "title": "Family Hall Tv Nature",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/family-room-concept.webp",
+      "title": "Family Room",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/full-bath-refresh-concept.webp",
+      "title": "Full Bath Refresh",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/ground-office-four-screen-concept.webp",
+      "title": "Ground Office Four Screen",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/half-bath-refresh-concept.webp",
+      "title": "Half Bath Refresh",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/kitchen-sage-oak-concept.webp",
+      "title": "Kitchen Sage Oak",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/kitchen-side-garden-compact-overhead.webp",
+      "title": "Kitchen Side Garden Compact Overhead",
+      "featured": false
+    },
+    {
+      "image": "assets/concepts/kitchen-white-pantry-concept.webp",
+      "title": "Kitchen White Pantry",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/large-three-bed-nature-concept.webp",
+      "title": "Large Three Bed Nature",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/large-three-bed-storage-concept.webp",
+      "title": "Large Three Bed Storage",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/left-kitchen-side-garden-overhead.webp",
+      "title": "Left Kitchen Side Garden Overhead",
+      "featured": false
+    },
+    {
+      "image": "assets/concepts/lower-office-concept.webp",
+      "title": "Lower Office",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/prayer-hall-zoned-concept.webp",
+      "title": "Prayer Hall Zoned",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/primary-bedroom-concept.webp",
+      "title": "Primary Bedroom",
+      "featured": false
+    },
+    {
+      "image": "assets/concepts/quiet-living-prayer-concept.webp",
+      "title": "Quiet Living Prayer",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/screened-porch-breeding-suite-concept.webp",
+      "title": "Screened Porch Breeding Suite",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/screened-porch-concept.webp",
+      "title": "Screened Porch",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/screened-porch-flight-aviary-concept.webp",
+      "title": "Screened Porch Flight Aviary",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/shared-kids-room-a-concept.webp",
+      "title": "Shared Kids Room A",
+      "featured": false
+    },
+    {
+      "image": "assets/concepts/shared-kids-room-b-concept.webp",
+      "title": "Shared Kids Room B",
+      "featured": false
+    },
+    {
+      "image": "assets/concepts/side-garden-concept.webp",
+      "title": "Side Garden",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/upper-lawn-garden-overhead.webp",
+      "title": "Upper Lawn Garden Overhead",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/upstairs-study-concept.webp",
+      "title": "Upstairs Study",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/whole-yard-overhead-concept.webp",
+      "title": "Whole Yard Overhead",
+      "featured": true
+    }
+  ]
+}
