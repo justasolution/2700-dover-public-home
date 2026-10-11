@@ -130,6 +130,16 @@
           "title": "Three separate stackable twin beds",
           "summary": "Four movable twin frames are bought as two pairs; use three now, keep one for a future room or guest, and add low rolling bins instead of a dresser.",
           "image": "assets/concepts/kids-room-separate-stackable-twins.webp"
+        },
+        {
+          "title": "Three-child compact room \u2014 left doors clear",
+          "summary": "One convertible twin bunk plus one separate low twin keeps three permanent beds and preserves the bathroom/cabinet access and central play area.",
+          "image": "assets/concepts/kids-room-three-bed-left-clear.webp"
+        },
+        {
+          "title": "Four-child compact room \u2014 two convertible bunks",
+          "summary": "Two convertible twin bunks provide four permanent beds while leaving the bathroom/cabinet side open; verify windows, heaters and ladder clearances in person.",
+          "image": "assets/concepts/kids-room-four-bed-left-clear.webp"
         }
       ]
     },
@@ -743,6 +753,16 @@
     {
       "image": "assets/concepts/kids-room-separate-stackable-twins.webp",
       "title": "Kids Room \u2014 Separate Stackable Twin Beds",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/kids-room-three-bed-left-clear.webp",
+      "title": "Three-child compact room \u2014 left doors clear",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/kids-room-four-bed-left-clear.webp",
+      "title": "Four-child compact room \u2014 two convertible bunks",
       "featured": true
     }
   ]
