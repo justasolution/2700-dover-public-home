@@ -47,10 +47,10 @@
     },
     {
       "id": "photo13-nature-corner",
-      "title": "Photo 13 nature corner \u2014 compact aquarium and plants",
-      "summary": "A modest planted aquarium and stable plant display. The final placement must keep the baseboard heater, curtains, electrical equipment and walking path fully clear.",
+      "title": "Photo 13 \u2014 Amazon-style monstera and aquarium corner",
+      "summary": "The existing monstera becomes the central canopy, with a compact planted aquarium and layered freestanding greenery while the stair opening, heater, curtains and maintenance route stay clear.",
       "source": "assets/listing/photo-13.webp",
-      "concept": "assets/concepts/photo13-perpendicular-aquarium.webp",
+      "concept": "assets/concepts/photo13-amazon-monstera-compact.webp",
       "priority": "Phase 2",
       "alternatives": [
         {
@@ -67,6 +67,16 @@
           "title": "Photo 13 \u2014 Aquarium Detail Angle",
           "summary": "Visual study only; verify floor capacity, heater clearance and electrical safety before installation.",
           "image": "assets/concepts/photo13-aquarium-detail-angle.webp"
+        },
+        {
+          "title": "Photo 13 \u2014 Amazon Monstera Aquarium Wall",
+          "summary": "Amazon-style monstera and planted aquarium study; verify dimensions, floor support, stair clearance and electrical safety.",
+          "image": "assets/concepts/photo13-amazon-monstera-long.webp"
+        },
+        {
+          "title": "Photo 13 \u2014 Compact Amazon Monstera Corner",
+          "summary": "Amazon-style monstera and planted aquarium study; verify dimensions, floor support, stair clearance and electrical safety.",
+          "image": "assets/concepts/photo13-amazon-monstera-compact.webp"
         }
       ]
     },
@@ -616,8 +626,18 @@
       "featured": false
     },
     {
+      "image": "assets/concepts/photo13-amazon-monstera-long.webp",
+      "title": "Photo 13 \u2014 Amazon Monstera Aquarium Wall",
+      "featured": true
+    },
+    {
       "image": "assets/concepts/photo13-aquarium-detail-angle.webp",
       "title": "Photo 13 \u2014 Aquarium Detail Angle",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/photo13-amazon-monstera-compact.webp",
+      "title": "Photo 13 \u2014 Compact Amazon Monstera Corner",
       "featured": true
     },
     {
