@@ -125,6 +125,11 @@
           "title": "Storage-first three-bed variation",
           "summary": "No freestanding dresser; the beds provide nearly all clothing and toy storage.",
           "image": "assets/concepts/large-three-bed-storage-concept.webp"
+        },
+        {
+          "title": "Three separate stackable twin beds",
+          "summary": "Four movable twin frames are bought as two pairs; use three now, keep one for a future room or guest, and add low rolling bins instead of a dresser.",
+          "image": "assets/concepts/kids-room-separate-stackable-twins.webp"
         }
       ]
     },
@@ -733,6 +738,11 @@
     {
       "image": "assets/concepts/whole-yard-overhead-concept.webp",
       "title": "Whole Yard Overhead",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/kids-room-separate-stackable-twins.webp",
+      "title": "Kids Room \u2014 Separate Stackable Twin Beds",
       "featured": true
     }
   ]
