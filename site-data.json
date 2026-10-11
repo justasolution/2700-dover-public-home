@@ -46,6 +46,31 @@
       ]
     },
     {
+      "id": "photo13-nature-corner",
+      "title": "Photo 13 nature corner \u2014 compact aquarium and plants",
+      "summary": "A modest planted aquarium and stable plant display. The final placement must keep the baseboard heater, curtains, electrical equipment and walking path fully clear.",
+      "source": "assets/listing/photo-13.webp",
+      "concept": "assets/concepts/photo13-perpendicular-aquarium.webp",
+      "priority": "Phase 2",
+      "alternatives": [
+        {
+          "title": "Photo 13 \u2014 Oak Aquarium Nature Corner",
+          "summary": "Visual study only; verify floor capacity, heater clearance and electrical safety before installation.",
+          "image": "assets/concepts/photo13-aquarium-oak-cabinet.webp"
+        },
+        {
+          "title": "Photo 13 \u2014 Compact Paludarium Variation",
+          "summary": "Visual study only; verify floor capacity, heater clearance and electrical safety before installation.",
+          "image": "assets/concepts/photo13-compact-paludarium.webp"
+        },
+        {
+          "title": "Photo 13 \u2014 Aquarium Detail Angle",
+          "summary": "Visual study only; verify floor capacity, heater clearance and electrical safety before installation.",
+          "image": "assets/concepts/photo13-aquarium-detail-angle.webp"
+        }
+      ]
+    },
+    {
       "id": "kitchen-storage",
       "title": "Kitchen \u2014 remove the white refrigerator and add pantry cabinets",
       "summary": "Keep the stainless refrigerator and existing footprint; replace the extra white refrigerator with floor-to-ceiling pantry, drawers and an appliance garage.",
@@ -589,6 +614,26 @@
       "image": "assets/concepts/office-creative-studio-variation.webp",
       "title": "Lower Office \u2014 Creative Studio Variation",
       "featured": false
+    },
+    {
+      "image": "assets/concepts/photo13-aquarium-detail-angle.webp",
+      "title": "Photo 13 \u2014 Aquarium Detail Angle",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/photo13-compact-paludarium.webp",
+      "title": "Photo 13 \u2014 Compact Paludarium Variation",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/photo13-aquarium-oak-cabinet.webp",
+      "title": "Photo 13 \u2014 Oak Aquarium Nature Corner",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/photo13-perpendicular-aquarium.webp",
+      "title": "Photo 13 \u2014 Perpendicular Aquarium Study",
+      "featured": true
     },
     {
       "image": "assets/concepts/prayer-hall-zoned-concept.webp",
