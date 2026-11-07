@@ -764,6 +764,16 @@
       "image": "assets/concepts/kids-room-four-bed-left-clear.webp",
       "title": "Four-child compact room \u2014 two convertible bunks",
       "featured": true
+    },
+    {
+      "image": "assets/concepts/bookshelf-prayer-room-corner.webp",
+      "title": "Restored Oak Bookshelf \u2014 Prayer Room Corner",
+      "featured": true
+    },
+    {
+      "image": "assets/concepts/bookshelf-prayer-room-restored.webp",
+      "title": "Restored Oak Bookshelf \u2014 Earlier Wall Placement",
+      "featured": false
     }
   ]
 }
