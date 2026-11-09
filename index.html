@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Original listing photos and family home design concepts for 2700 Dover Street.">
+  <meta name="description" content="Dover furniture we own, room plans, measurement notes and a practical check before buying more.">
   <title>2700 Dover Street — Home Vision</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261107">
+  <link rel="stylesheet" href="furniture.css?v=20261107">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -16,15 +17,15 @@
     <nav class="nav shell" aria-label="Main navigation">
       <a class="brand" href="#top"><span>2700</span> Dover</a>
       <div class="nav-links">
-        <a href="#rooms">Room ideas</a><a href="#listing">Original photos</a><a href="#variations">All variations</a><a href="#tour">Video</a>
+        <a href="#furniture">Furniture we have</a><a href="#layout">Room plan</a><a href="#buy-check">Before buying</a><a href="#variations">All variations</a><a href="#listing">Original photos</a>
       </div>
     </nav>
     <div class="hero-grid shell">
       <div class="hero-copy">
-        <p class="kicker">A family home vision</p>
-        <h1>More nature.<br>More room to live.</h1>
-        <p class="intro">A single visual guide that brings together the public listing photography and our ideas for a practical, calm, family-centered home.</p>
-        <div class="hero-actions"><a class="button" href="#rooms">Explore the plan</a><a class="text-link" href="#listing">See all 39 listing photos →</a></div>
+        <p class="kicker">Our home, one thoughtful purchase at a time</p>
+        <h1>Use what we have.<br>Buy what fits.</h1>
+        <p class="intro">Our furniture, Dover room references and measurement notes in one place. Keep the house practical, calm and close to nature—without collecting furniture we do not need.</p>
+        <div class="hero-actions"><a class="button" href="#furniture">See what we own</a><a class="text-link" href="#buy-check">Check the next find →</a></div>
       </div>
       <figure class="hero-image"><img src="assets/concepts/upper-lawn-garden-overhead.webp" alt="Illustrative aerial concept for the house and garden"><figcaption>Illustrative concept · verify survey and dimensions</figcaption></figure>
     </div>
@@ -32,10 +33,48 @@
 
   <main id="main">
     <section class="overview shell" aria-label="Overview">
-      <div><strong>39</strong><span>original listing views</span></div>
-      <div><strong>16</strong><span>coordinated room plans</span></div>
-      <div><strong>46</strong><span>visual concept variations</span></div>
-      <p>Original photos are marked <b>Listing</b>. Reimagined images are marked <b>Concept</b>, so the two are always easy to distinguish.</p>
+      <div><strong id="ownedCount">3</strong><span>confirmed purchases</span></div>
+      <div><strong id="planRoomCount">9</strong><span>room allocations</span></div>
+      <div><strong id="conceptCount">—</strong><span>saved design concepts</span></div>
+      <p><b>Have</b> means a confirmed purchase. <b>Considering</b> means an idea to review. Concept images do not prove ownership or measured fit.</p>
+    </section>
+
+    <section class="section shell" id="furniture">
+      <div class="section-heading"><div><p class="kicker">Start with the pieces we own</p><h2>Our furniture, with a plan</h2></div><p>The TV console, desk and narrow oak bookshelf are confirmed purchases. The orange sofa remains under consideration.</p></div>
+      <div class="planner-notice"><strong>One item, one job.</strong> Decide where each piece belongs before buying another. A console repurposed for the pantry cannot also be counted as the hall’s TV stand.</div>
+      <div class="inventory-filters" id="inventoryFilters" aria-label="Furniture ownership filters"></div>
+      <div class="inventory-grid" id="inventoryGrid"><p>Loading our furniture…</p></div>
+      <div class="priority-grid" id="purchasePriorities"></div>
+    </section>
+
+    <section class="section warm" id="layout"><div class="shell">
+      <div class="section-heading"><div><p class="kicker">Dover layout and your notebook</p><h2>A home for every piece</h2></div><p>This room map follows the listing views and your intended room uses. It is not a verified architectural floor plan; doors, heater runs and wall lengths still need measuring.</p></div>
+      <div class="room-allocation-grid" id="allocationGrid"></div>
+      <div class="notes-heading"><h3>Measurements we can work from</h3><p>Shopping targets, interpreted handwriting and reported measurements are labeled separately.</p></div>
+      <div class="measurement-grid" id="measurementGrid"></div>
+      <p class="planning-footnote">The hall sketch and the children’s 16 × 11 ft room are separate references. Do not transfer one room’s dimensions to another.</p>
+    </div></section>
+
+    <section class="section shell" id="buy-check">
+      <div class="section-heading"><div><p class="kicker">Before reserving a Marketplace find</p><h2>Will we use it?<br>Will it fit?</h2></div><p>Enter the actual furniture size and a usable placement zone. Check its full cost, color and whether we already own something that does the job.</p></div>
+      <div class="check-layout">
+        <form id="furnitureCheckForm" class="check-form">
+          <label>Start with a shared piece<select id="checkPreset"><option value="">New furniture to review</option></select></label>
+          <div class="form-pair"><label>Item name<input id="checkName" maxlength="160" placeholder="e.g. oak dining table"></label><label>Furniture type<select id="checkCategory"><option value="sofa">Sofa / seating</option><option value="console">TV console</option><option value="bookcase">Bookcase</option><option value="desk">Desk</option><option value="pantry">Pantry / cabinet</option><option value="dining">Dining table</option><option value="bed">Bed</option><option value="other">Other</option></select></label></div>
+          <label>Intended room<select id="checkRoom"></select></label>
+          <fieldset><legend>Furniture outer dimensions · inches</legend><div class="form-triple"><label>Width<input id="itemWidth" type="number" min="0.1" max="1200" step="0.1" inputmode="decimal" placeholder="Width"></label><label>Depth<input id="itemDepth" type="number" min="0.1" max="1200" step="0.1" inputmode="decimal" placeholder="Max projection"></label><label>Height<input id="itemHeight" type="number" min="0.1" max="1200" step="0.1" inputmode="decimal" placeholder="Height"></label></div><p class="field-help">Include arms, crown, base and handles. For an L-shaped item, enter its outer envelope; the diagram does not model its open cutout.</p></fieldset>
+          <label>Choose a placement reference<select id="checkZone"><option value="custom">My measured usable zone</option><option value="pantry-low">Pantry bay, cupboard retained · 34 × 28½ × 66 in conservative limit</option><option value="pantry-tall">Pantry bay, only if upper cupboard is removed · height about 96 in</option><option value="hall-target">Hall sofa shopping target · 96 × 42 in, not a measured room</option><option value="closet-note">Closet note · approximately 44 × 24 × 84 in, unverified</option></select></label>
+          <fieldset><legend>Available placement zone · inches</legend><div class="form-triple"><label>Clear width<input id="zoneWidth" type="number" min="0.1" max="1200" step="0.1" inputmode="decimal"></label><label>Clear depth<input id="zoneDepth" type="number" min="0.1" max="1200" step="0.1" inputmode="decimal"></label><label>Clear height<input id="zoneHeight" type="number" min="0.1" max="1200" step="0.1" inputmode="decimal"></label></div><div class="form-pair"><label>Additional front-use space<input id="frontClearance" type="number" min="0" max="240" step="0.1" inputmode="decimal" value="0"></label><label>Additional side / installation allowance<input id="sideClearance" type="number" min="0" max="240" step="0.1" inputmode="decimal" value="0"></label></div><p class="field-help">Add any space still needed for the chair, door or drawer. Side allowance is the total extra width. If a walking route is already excluded from your measured zone, do not count it twice.</p></fieldset>
+          <div class="form-pair"><label>Finish / main color<select id="checkColor"><option value="unknown">Not sure yet</option><option value="oak">Natural oak / light wood</option><option value="white">White / ivory</option><option value="walnut">Dark wood / walnut</option><option value="russet">Orange / russet</option><option value="gray">Gray</option><option value="other">Another finish</option></select></label><label>Photo for this draft<input id="checkPhoto" type="file" accept="image/*"></label></div>
+          <fieldset><legend>Actual cost · dollars</legend><div class="form-pair"><label>Asking price<input id="askingPrice" type="number" min="0" max="100000" step="0.01" inputmode="decimal" placeholder="0 if free"></label><label>Your total budget ceiling<input id="budgetLimit" type="number" min="0" max="100000" step="0.01" inputmode="decimal" placeholder="Including extras"></label><label>Delivery / collection / tax<input id="deliveryCost" type="number" min="0" max="100000" step="0.01" inputmode="decimal" value="0"></label><label>Repair / missing parts<input id="repairCost" type="number" min="0" max="100000" step="0.01" inputmode="decimal" value="0"></label></div></fieldset>
+          <div class="check-options"><label><input id="alreadyOwned" type="checkbox"> We already own this item.</label><label><input id="measurementsConfirmed" type="checkbox"> I measured this usable zone; it is not just a notebook target.</label><label><input id="layoutChecked" type="checkbox"> Door / drawer operation, delivery route, heaters and condition have been checked.</label><label><input id="newNeedConfirmed" type="checkbox"> This fills a need our existing furniture does not cover.</label></div>
+          <div class="check-actions"><button class="button" type="submit">Review this piece</button><button class="secondary-button" type="button" id="clearCheck">Clear draft</button></div>
+          <p class="field-help">This draft and optional photo stay on this device. They are not uploaded to the public site. Share the photo and exported review in chat to update the common plan.</p>
+        </form>
+        <aside class="check-result" aria-live="polite"><p class="kicker">Your decision helper</p><h3 id="checkVerdict">Start with a real measurement.</h3><div id="checkMessages"><p>Dimensions can rule an item out. Passing a simple size check does not confirm that a room layout, doorway turn or heater clearance works.</p></div><div id="footprint" class="footprint"></div><img id="draftPhoto" alt="Your furniture draft photo" hidden><div class="check-actions"><button type="button" class="secondary-button" id="copyReview">Copy review for chat</button><button type="button" class="secondary-button" id="downloadReview">Save review</button></div><p id="draftStatus" class="field-help" role="status"></p></aside>
+      </div>
+      <div class="palette"><strong>Our simple palette</strong><span><i style="background:#bc8652"></i>Honey oak</span><span><i style="background:#f3ede1"></i>Warm ivory</span><span><i style="background:#8b9b7b"></i>Muted sage</span><span><i style="background:#bc6337"></i>Russet accent</span><p>Keep sound wood finishes. Coordinate with textiles before paying to repaint every piece.</p></div>
+      <details class="source-details"><summary>Sources and how to use this guide</summary><div id="furnitureSources"></div><p>Photographs show the furniture and room references. Generated pictures illustrate ideas. Clearance guidance is a planning starting point, not a code requirement or proof of fit. A measured whole-house floor plan was not available in the accessible listing assets.</p></details>
     </section>
 
     <section class="section shell" id="rooms">
@@ -53,6 +92,8 @@
 
     <section class="section shell" id="variations">
       <div class="section-heading"><div><p class="kicker">The full idea library</p><h2>Every design variation</h2></div><p>Primary designs and earlier alternatives are kept here for comparison. All are illustrative.</p></div>
+      <div class="library-tools"><a class="button" href="#furniture">Furniture we actually own</a><a class="text-link" href="#buy-check">Check a new purchase →</a><label>Find a concept<input id="conceptSearch" type="search" placeholder="office, kids, pantry, bookshelf…"></label></div>
+      <p id="conceptResultCount" class="planning-footnote" aria-live="polite"></p>
       <div class="concept-grid" id="conceptGrid"></div>
     </section>
 
@@ -69,6 +110,8 @@
 
   <dialog id="viewer"><button class="close" aria-label="Close image">×</button><img alt=""><div><span class="tag"></span><h3></h3><p></p></div></dialog>
   <footer><div class="shell"><p>2700 Dover Street home vision</p><p>Concept images are illustrative. Verify dimensions, structure, utilities, permits, plant and animal safety before work.</p></div></footer>
-  <script src="app.js" defer></script>
+  <script src="furniture-checks.js?v=20261107" defer></script>
+  <script src="furniture.js?v=20261107" defer></script>
+  <script src="app.js?v=20261107" defer></script>
 </body>
 </html>

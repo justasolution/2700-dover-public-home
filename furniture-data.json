@@ -1,0 +1,327 @@
+{
+  "updated": "2026-11-07",
+  "basis": "Your shared furniture photos, handwritten notes, purchase clarification and the Dover listing photographs. Room assignments are a planning reference, not a measured architectural floor plan.",
+  "items": [
+    {
+      "id": "tv-console",
+      "name": "TV console",
+      "status": "have",
+      "category": "console",
+      "room": "family-hall",
+      "image": null,
+      "imageNote": "Ownership is confirmed. The exact console photo is not yet reliably identified; no surrounding store furniture is assumed to be yours.",
+      "dimensions": {
+        "width": null,
+        "depth": null,
+        "height": null
+      },
+      "dimensionNote": "Measure the complete unit, usable TV opening and any doors or drawers.",
+      "verdict": "Reuse before shopping for another TV stand.",
+      "placement": "Use an uninterrupted solid wall in the family TV hall, with a clear route to the entry and stairs. Check screen size and cable access.",
+      "color": "Finish identification pending. Keep a sound existing finish and repeat one wood tone in small accessories.",
+      "next": "Send or identify the console photo and measure width \u00d7 depth \u00d7 height and any TV opening.",
+      "source": "Purchase confirmed in this chat on 7 November 2026."
+    },
+    {
+      "id": "dark-monitor-desk",
+      "name": "Dark desk currently holding the monitors",
+      "status": "have",
+      "category": "desk",
+      "room": "ground-office",
+      "image": "assets/furniture/dark-monitor-desk-reference.webp",
+      "imageNote": "Furniture-only AI reference based on your private lower-office photo #027. It is a visual illustration, not an exact product drawing or measurement.",
+      "dimensions": {
+        "width": null,
+        "depth": null,
+        "height": null
+      },
+      "dimensionNote": "Actual width, depth, return length and height are not recorded. The 61-inch dimensions on the pale L-desk listing do not belong to this desk.",
+      "verdict": "Use the desk you own; skip a second office desk.",
+      "placement": "Keep the current desk in the lower creative office first. Measure its footprint, return, chair space and heater clearances before buying replacement furniture or extra screens.",
+      "color": "Dark brown and black can anchor the room. Keep other storage light and use a few restrained plants.",
+      "next": "Measure the existing desk and screen widths. Check its top and frame ratings before selecting monitor mounts.",
+      "source": "You confirmed the dark desk holding the monitors in gallery #027 as the purchased desk."
+    },
+    {
+      "id": "oak-bookcase",
+      "name": "Narrow oak glass-door bookcase",
+      "status": "have",
+      "category": "bookcase",
+      "room": "prayer-hall",
+      "image": "assets/furniture/oak-bookcase-reference.webp",
+      "imageNote": "The narrow middle cabinet is the purchased bookcase. Surrounding store furniture is not counted as owned.",
+      "dimensions": {
+        "width": null,
+        "depth": null,
+        "height": null
+      },
+      "dimensionNote": "No reliable cabinet dimensions in the supplied photo. Measure its widest crown, deepest base and full height.",
+      "verdict": "Keep the oak finish, touch up wear and reuse it for books.",
+      "placement": "Prayer-room solid-wall corner near the curtain. Fit and anchoring must be checked on site; keep a gap from seating, curtain fabric and heater clearance zones.",
+      "color": "Honey oak matches the existing floor. Warm ivory, restrained sage and russet accents can coordinate without repainting it.",
+      "next": "Record cabinet and corner measurements. Inspect glass, supports and hinges; anchor the sound frame to a suitable wall fixing.",
+      "concept": "assets/concepts/bookshelf-prayer-room-corner.webp",
+      "source": "Gallery image #019 and your purchase clarification."
+    },
+    {
+      "id": "orange-chofa",
+      "name": "Orange / russet chaise sofa",
+      "status": "consider",
+      "category": "sofa",
+      "room": "prayer-hall",
+      "image": "assets/furniture/orange-chofa-reference.webp",
+      "imageNote": "Shared store photo. This sofa has not been confirmed as purchased.",
+      "dimensions": {
+        "width": 86,
+        "depth": 64,
+        "height": 33
+      },
+      "dimensionNote": "Photo tag matches Bob\u2019s Bettie Russet Chofa: 86 W \u00d7 64 maximum D \u00d7 33 H. Manufacturer also describes an 86 \u00d7 36 straight-sofa configuration with the included cushion. Verify the exact unit and components with the seller.",
+      "verdict": "Color works; tape out the chaise before reserving it.",
+      "placement": "You asked to try this in the second hall. The 86-inch width is within your 84\u201396-inch shopping target, but the 64-inch chaise goes well beyond the earlier 36\u201342-inch sofa-body depth target. Try the straight configuration first if the prayer floor becomes crowded.",
+      "color": "Russet complements honey oak and white. Use quiet cream or sage textiles; do not buy a second strong accent sofa to match it.",
+      "next": "Confirm the total delivered price, exact model, configuration, condition and room route. No purchase recommendation until the floor trial works.",
+      "url": "https://www.mybobs.com/furniture/living-room/sofas-couches/p/20075992",
+      "source": "Your store photograph and the manufacturer\u2019s dimensions, checked 7 November 2026."
+    },
+    {
+      "id": "white-parts",
+      "name": "White cabinet pieces / pantry reuse",
+      "status": "identify",
+      "category": "pantry",
+      "room": "kitchen-storage",
+      "image": "assets/furniture/white-console-reference-a.webp",
+      "imageNote": "Earlier shared cabinet photo. Confirm whether these are the same TV-console parts or a separate set before counting another item.",
+      "dimensions": {
+        "width": null,
+        "depth": null,
+        "height": null
+      },
+      "dimensionNote": "Component dimensions and panel thickness are missing. Weight alone does not establish load capacity.",
+      "verdict": "Measure and inspect before buying a replacement pantry.",
+      "placement": "Potential dry-storage material for the former white-fridge bay. Retain the existing orientation where possible; a horizontal console is not automatically safe when turned upright or stacked.",
+      "color": "White can tie into existing kitchen trim. Finish exposed edges and keep damaged particleboard away from moisture.",
+      "next": "Photograph the laid-out panels with dimensions and label each piece. Decide one primary use; the same console cannot serve both the hall and pantry.",
+      "source": "Pantry Cabinet Design: you said the heavy cabinets were acquired and dismantled. Photo identity needs matching to the confirmed TV console."
+    },
+    {
+      "id": "light-l-desk-reference",
+      "name": "Light 61-inch L desk \u2014 reference only",
+      "status": "skip",
+      "category": "desk",
+      "room": "ground-office",
+      "image": "assets/furniture/l-desk-reference.webp",
+      "imageNote": "Shared listing reference, not the desk you confirmed as purchased.",
+      "dimensions": {
+        "width": 61,
+        "depth": 61,
+        "height": null
+      },
+      "dimensionNote": "Photo labels show two 61-inch outer runs; arms are 23\u00bd and 20 inches deep. The 61 \u00d7 61 figure is the L-shaped outer envelope, not a solid square desktop. Height is unrecorded.",
+      "verdict": "Skip a second desk while the dark workstation already meets the need.",
+      "placement": "No allocation: the lower office already has your dark desk. Only reconsider this if a measured separate study requirement remains.",
+      "color": "Light wood and white work with the floor, warm ivory walls and muted sage accessories.",
+      "next": "Do not reserve it simply because it looks useful; first place and measure the desk already owned.",
+      "source": "Earlier Desk Repurposing Plan photo; your later clarification identifies the dark monitor desk as owned."
+    }
+  ],
+  "notes": [
+    {
+      "id": "pantry",
+      "title": "Former white-fridge bay",
+      "value": "34 W \u00d7 28\u00bd D \u00d7 approximately 66\u201370 H in",
+      "confidence": "User-reported opening",
+      "detail": "Use 66 inches as the conservative height until measured. Removing the louvered upper cupboard could allow roughly 96 inches overall; check what it conceals first. Include doors, handles, trim and installation space."
+    },
+    {
+      "id": "sofa",
+      "title": "Hall / mini-hall sofa target",
+      "value": "84\u201396 W \u00d7 36\u201342 body D in",
+      "confidence": "Shopping target from your notebook",
+      "detail": "This is a preferred furniture envelope, not the complete room size. A chaise has its own deeper projection. Check actual uninterrupted wall length and circulation."
+    },
+    {
+      "id": "coffee",
+      "title": "Hall coffee-table target",
+      "value": "Approximately 36 W \u00d7 24 D in",
+      "confidence": "Handwritten target",
+      "detail": "Optional purchase. Your later second-hall request omitted the coffee table, so keep the prayer floor open there."
+    },
+    {
+      "id": "dining",
+      "title": "Dining table target",
+      "value": "Roughly 72\u201378 long \u00d7 36\u201342 deep in",
+      "confidence": "Notebook interpretation",
+      "detail": "Tape out the smaller end first. A 72 \u00d7 36 table with a 36-inch clearance band on all sides occupies a 144 \u00d7 108-inch planning envelope; chair and passage needs may require more."
+    },
+    {
+      "id": "mini-table",
+      "title": "Mini-hall table alternative",
+      "value": "42\u201348 W \u00d7 30\u201336 D in",
+      "confidence": "Handwritten alternative",
+      "detail": "A different-size table idea, not an instruction to buy an extra table. Choose one everyday dining setup after checking what remains in the home."
+    },
+    {
+      "id": "kids",
+      "title": "Large bedroom for children",
+      "value": "Approximately 16 \u00d7 11 ft",
+      "confidence": "Your earlier room description",
+      "detail": "Three separate movable beds remain the direction. Keep the left-side closet and bathroom access clear. Hot-water baseboards run along most walls; their required clearance still needs confirming."
+    },
+    {
+      "id": "closet",
+      "title": "Girls\u2019 mirrored closet",
+      "value": "About 44 W \u00d7 24 D \u00d7 84 H in \u2014 remeasure",
+      "confidence": "Interpretation of handwritten 3 ft 8 in",
+      "detail": "Earlier drafts also mentioned 38 inches. Confirm the inside width and the clear opening behind one sliding door before ordering shelves or drawers. Reuse compatible metal tracks if sound."
+    },
+    {
+      "id": "hall-sketch",
+      "title": "Hall / kitchen sketch",
+      "value": "16-ft wall and an 11-ft segment are noted",
+      "confidence": "Rough sketch, room boundaries unresolved",
+      "detail": "Keep these as separate wall references. They do not establish a measured 16 \u00d7 11 hall or a combined living/dining floor plan."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "family-hall",
+      "name": "Family TV hall",
+      "level": "Living spaces",
+      "photo": 10,
+      "image": "assets/listing/photo-10.webp",
+      "use": "TV, sofa, plants; keep the entry and stair route open.",
+      "have": "A TV console is confirmed as purchased. Its exact photo and dimensions remain unresolved; do not buy a replacement before identifying and measuring it.",
+      "next": "Measure the console and TV wall. Confirm whether the gray sofa seen in recent room photos stays before buying more seating.",
+      "hold": "Second console, oversized sectional and extra occasional chairs."
+    },
+    {
+      "id": "prayer-hall",
+      "name": "Second hall / prayer and reading",
+      "level": "Living spaces",
+      "photo": 12,
+      "image": "assets/listing/photo-12.webp",
+      "use": "Open prayer floor, one seating group and the oak bookcase.",
+      "have": "Owned oak bookcase: first try the solid-wall corner. The orange sofa remains a candidate, not an owned item.",
+      "next": "Measure the corner and tape out 86 \u00d7 64 inches for the chaise, then compare the 86 \u00d7 36 straight option.",
+      "hold": "Coffee table in the prayer zone and another large display cabinet."
+    },
+    {
+      "id": "kitchen-storage",
+      "name": "Kitchen and pantry bay",
+      "level": "Living spaces",
+      "photo": 18,
+      "image": "assets/listing/photo-18.webp",
+      "use": "One working stainless refrigerator plus practical dry-food storage.",
+      "have": "Earlier white pieces may be reusable; first match them to the TV-console inventory so they are not counted twice.",
+      "next": "Measure every panel against the 34 \u00d7 28\u00bd-inch bay. Keep the louvered cupboard until its purpose is checked.",
+      "hold": "A replacement tall pantry, bulk wood or drawer slides before the reuse plan is measured."
+    },
+    {
+      "id": "dining-room",
+      "name": "Dining and breakfast area",
+      "level": "Living spaces",
+      "photo": 15,
+      "image": "assets/listing/photo-15.webp",
+      "use": "One main family dining setup with clear slider and kitchen access.",
+      "have": "A table is visible in recent room photos, but retention and dimensions are not confirmed.",
+      "next": "Measure the existing table and floor space first. Trial a 72 \u00d7 36-inch table footprint before choosing larger.",
+      "hold": "A second full dining set and built-in nook benches before the main table is settled."
+    },
+    {
+      "id": "large-three-bed-room",
+      "name": "Large bedroom / children",
+      "level": "Upstairs",
+      "photo": 20,
+      "image": "assets/listing/photo-20.webp",
+      "use": "Three independent beds that can move to separate rooms later.",
+      "have": "Existing closet tracks may be reusable; bed purchases have not been confirmed.",
+      "next": "Make a measured bed layout with the actual frame sizes, drawers, doors, windows and heater runs.",
+      "hold": "Linked L-shaped bed sets, a separate bulky dresser and any layout that blocks the left doors."
+    },
+    {
+      "id": "compact-adult-bedroom",
+      "name": "Medium bedroom / adults",
+      "level": "Upstairs",
+      "photo": 23,
+      "image": "assets/listing/photo-23.webp",
+      "use": "Compact sleeping, a clear closet route and restrained plants.",
+      "have": "No adult-bed purchase confirmed in the furniture inventory.",
+      "next": "Measure a queen frame\u2019s full outer size and both side passages; reuse narrow bedside storage if available.",
+      "hold": "A complete matching bedroom set before confirming bed and wardrobe access."
+    },
+    {
+      "id": "upstairs-study",
+      "name": "Small bedroom / study only",
+      "level": "Upstairs",
+      "photo": 5,
+      "image": "assets/listing/photo-05.webp",
+      "use": "A simple study space without a bed.",
+      "have": "The owned dark desk is allocated to the lower office. The pale 61-inch L-shaped desk was a shared listing reference, not a confirmed purchase.",
+      "next": "Confirm whether an additional study desk is truly needed after the office is working; consider a shallow secondhand surface only then.",
+      "hold": "A second large L-shaped desk or tall cabinet that interferes with the closet."
+    },
+    {
+      "id": "ground-office",
+      "name": "Lower bedroom / creative office",
+      "level": "Lower level",
+      "photo": 27,
+      "image": "assets/listing/photo-27.webp",
+      "use": "Owned dark desk, controlled cables and a staged multi-screen workstation.",
+      "have": "The owned dark desk is the one holding the monitors in your actual lower-office photo. Its dimensions are still missing.",
+      "next": "Measure the current desk, chair movement and heater clearance; check desktop support and screen-mount loads before adding equipment.",
+      "hold": "Another office desk, wide storage towers and monitor arms bought without checking the top."
+    },
+    {
+      "id": "sunroom-aviary",
+      "name": "Sunroom / nature and birds",
+      "level": "Outdoor-connected space",
+      "photo": 29,
+      "image": "assets/listing/photo-29.webp",
+      "use": "Seasonal relaxation and a separately planned secure bird enclosure.",
+      "have": "No permanent aviary or sunroom-furniture purchase confirmed here.",
+      "next": "Resolve enclosure, weather protection and maintenance space before buying permanent furnishings.",
+      "hold": "Indoor oak cabinets in damp conditions and a breeding setup purchased before the year-round care plan."
+    }
+  ],
+  "priorities": [
+    {
+      "label": "Use first",
+      "title": "Place the three purchases",
+      "text": "Assign one home to the console, desk and bookcase. Clean and repair sound furniture; add suitable restraints and cable management before buying duplicate storage."
+    },
+    {
+      "label": "Measure next",
+      "title": "Resolve the large footprints",
+      "text": "Measure the sofa wall and chaise projection, bookcase corner, desk corner, pantry pieces and children\u2019s bed layout. Tape the outlines on the floor and walk the routes."
+    },
+    {
+      "label": "Consider later",
+      "title": "Buy a missing function",
+      "text": "Prioritize actual sleeping needs, one necessary seating setup and measured closet supplies. Buy a coffee table, rug or dining replacement only after the main furniture is placed."
+    },
+    {
+      "label": "Skip for now",
+      "title": "Avoid duplicate furniture",
+      "text": "No second TV console, office desk or display bookcase. Pause full matching sets, extra benches and large restoration projects without a specific measured place to use them."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Dover listing and room references",
+      "url": "https://www.realtor.com/realestateandhomes-detail/2700-Dover-St_Piscataway_NJ_08854_M57648-04602"
+    },
+    {
+      "label": "Bettie sofa manufacturer dimensions and configurations",
+      "url": "https://www.mybobs.com/furniture/living-room/sofas-couches/p/20075992"
+    },
+    {
+      "label": "Dining-clearance planning guidance",
+      "url": "https://www.roomandboard.com/catalog/dining-and-kitchen"
+    },
+    {
+      "label": "Furniture restraint installation guidance",
+      "url": "https://www.anchorit.gov/how-to-anchor/how-to-install-a-kit/"
+    }
+  ]
+}
